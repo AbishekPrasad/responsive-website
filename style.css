@@ -1,0 +1,91 @@
+h1 {
+  font-family: "Playwrite BE WAL", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: coral;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+p, h3 {
+  font-size: 1rem;
+}
+
+h2 .main-word {
+  color: darkorchid;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.main-box .box1, .main-box .box2 {
+  flex: 1 1 45%;
+  margin: 1%;
+}
+
+.main-box img {
+  margin: 1%;
+}
+
+.main-box p, h3 {
+  padding: 2%;
+}
+
+@media (max-width: 1242px) {
+  .main-box {
+    margin: 0 10%;
+  }
+}
+
+@media (max-width: 1164px) {
+  .main-box {
+    margin: 0 8%;
+  }
+}
+
+@media (max-width: 1064px) {
+  .main-box {
+    margin: 0 6%;
+  }
+}
+
+@media (max-width: 1008px) {
+  .main-box {
+    margin: 0 5%;
+  }
+}
+
+@media (max-width: 808px) {
+  .main-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-box .box1, .main-box .box2 {
+    flex: 1 1 100%;
+    margin: 1%;
+  }
+
+  .main-box {
+    margin: 0 10%;
+  }
+}
